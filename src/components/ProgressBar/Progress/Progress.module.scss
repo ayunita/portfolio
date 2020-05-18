@@ -1,0 +1,70 @@
+@import '../../../config';
+
+$cdiameter: 32px;
+
+.Wrapper {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &:nth-last-of-type(2) > .Circle{
+        cursor: pointer;
+        animation: circle-glowing 2s infinite;
+    }
+
+}
+
+@keyframes circle-glowing {
+    0% {
+        box-shadow: 0 0 0 $mikado;
+    }
+
+    50% {
+        box-shadow: 0 0 $cdiameter $mikado;
+    }
+
+	100% {
+        box-shadow: 0 0 0 $mikado;
+	}
+}
+
+.Circle {    
+    width: $cdiameter;
+    height: $cdiameter;
+    border: 1px solid $mikado;
+    background-color: $mikado;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+}
+
+.Text{
+    margin-top: 8px;
+    width: 100px;
+    text-align: center;
+    font-size: .8rem;
+    color: $cobalt;
+
+    @media (max-width: 768px) {
+        width: 50px;
+        font-size: .5rem;     
+    }
+}
+
+.Line { 
+    width: 100%;
+    margin-top: 16px;
+    margin-right: -($cdiameter+1);
+    margin-left: -($cdiameter+1);
+    border-top: 1px solid $mikado;
+
+    &:last-child {
+        width: 0;
+        margin: 0;
+    }
+
+}

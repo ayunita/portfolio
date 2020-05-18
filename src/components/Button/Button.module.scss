@@ -1,0 +1,18 @@
+@import '../../config';
+
+.Button {
+    padding: 0 32px;
+    margin: 0 16px;
+    height: 32px;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    background-color: $flame;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover, &:active {
+        background-color: darken($flame, 10%);
+    }
+}

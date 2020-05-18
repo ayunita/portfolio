@@ -1,0 +1,116 @@
+@import '../../../config';
+
+.Box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $tiffany;
+    
+    @media (min-width: 768px) {
+        margin: 16px 0;
+        border: 1px solid $tiffany;
+        box-shadow: 8px 8px $mikado;
+    }
+
+    &:first-of-type {
+        border-top: 1px solid $tiffany;
+    }
+
+    &:hover {
+        background-color: $gray;
+    }
+
+    .Image {
+        flex: 0 0 10%;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: $tiffany;
+            font-size: 2rem;
+            margin: 8px;
+
+            @media (min-width: 768px) {
+                font-size: 2.5rem;
+                margin: 0;
+            }
+        }
+    }
+
+    .Title {
+        flex: 0 0 50%;
+        padding: 16px;
+        cursor: pointer;
+
+        h1 {
+            color: $tiffany;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0;
+            letter-spacing: .1rem;
+        }
+    }
+
+    .Tags {
+        flex: 0 1 40%;
+    }
+}
+
+@mixin hide-box-shadow {
+    margin-left: 8px;
+    margin-right: -8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 0 $mikado;
+}
+
+@keyframes box-in {
+	100% {
+       @include hide-box-shadow;
+	}
+}
+
+.Active {
+    background-color: $gray;
+    
+    @media (min-width: 768px) {
+        animation: box-in 0.5s forwards;
+    }
+    
+}
+
+.Content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $tiffany;
+    padding-bottom: 16px;
+
+    @media (min-width: 768px) {
+        margin-left: 16px;
+        border: 0;
+        padding-bottom: 0;
+    }
+
+    .Text {
+        flex: 0 0 85%;
+        margin-left: 10%;
+        padding: 16px;
+
+        p {
+            color: $cobalt;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+
+        h2 {
+            color: $tiffany;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+

@@ -1,0 +1,25 @@
+@import '../../../config';
+
+@mixin tag-display {
+    display: inline-block;
+    color: $cobalt;
+    font-size: .8em;
+    
+}
+
+.Tag {
+    @include tag-display;
+    margin: 4px;
+    border: 2px solid $cobalt;
+    border-radius: 4px;
+    padding: 4px;   
+    font-weight: bold; 
+}
+
+.HashTag {
+    @include tag-display;
+    margin-right: 8px;
+    &:before {
+        content: '#';
+    }
+}

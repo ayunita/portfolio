@@ -1,0 +1,85 @@
+[
+    {
+        "title" : "Cardiovascular Risk Calculator",
+        "slug" : "project-1",
+        "url" : "http://www.epicore.ualberta.ca/epirxisk/",
+        "image" : "weight",
+        "description" : "An interactive calculator to measure of cardiovascular risk using 4 different risk engines (Framingham, Modified Framingham, UKPDS, SMART) depending on the patient's medical condition.",
+        "tech" : ["JavaScript", "JQuery", "Google Chart API"],
+        "tags" : ["cardiovascular-disease", "health-assessment-tool"],
+        "type" : "previous work",
+        "progress" : {
+            "1" : "Requirements & Design",
+            "2" : "Building the patient forms",
+            "3" : "Integrating Google Chart API",
+            "4" : "Building the landing page",
+            "5" : "Done"
+        }
+    },
+    {
+        "title" : "Disease Activity Calculator",
+        "slug" : "project-2",
+        "url" : "http://www.epicore.ualberta.ca/demo/joints",
+        "image" : "weight",
+        "description" : "An interactive calculator to measure of disease activity in people with rheumatoid arthritis by rating the pain level of the joints and answering the patient assessment.",
+        "tech" : ["JavaScript", "JQuery"],
+        "tags" : ["joint-pain", "rheumatoid-arthritis", "health-assessment-tool"],
+        "type" : "previous work",
+        "progress" : {
+            "1" : "Requirements & Design",
+            "2" : "Drawing human figure using Inkscape",
+            "3" : "Coding",
+            "4" : "Done"
+        }
+    },
+    {
+        "title" : "Urinary Tract Infection Education Tool",
+        "slug" : "project-3",
+        "url" : "https://www.epicore.ualberta.ca/rxoutmap/tool",
+        "image" : "laptop-code",
+        "description" : "An interactive flowchart to provide guidelines in managing patients with Urinary Tract Infection depending on the patient's medical condition.",
+        "tech" : ["JavaScript", "JQuery"],
+        "tags" : ["urinary-tract-infection", "treatment-tool"],
+        "type" : "previous work",
+        "progress" : {
+            "1" : "Requirements & Design",
+            "2" : "Drawing flowchart using Inkscape",
+            "3" : "Coding",
+            "4" : "Done"
+        }
+    },
+    {
+        "title" : "Patient Management System",
+        "slug" : "project-4",
+        "url" : "https://www.epicore.ualberta.ca/home/category/highlighted-project/",
+        "image" : "file-prescription",
+        "description" : "A web app to manage patient information, such as diagnoses, treatment, interaction, and performance.",
+        "tech" : ["JavaScript", "JQuery", "C#", "VB", "ASP.NET", "MSSQL", "Google Chart API"],
+        "tags" : ["rheumatoid-arthritis", "diabetes", "hypertension", "urinary-tract-infection", "health-management"],
+        "type" : "previous work",
+        "progress" : {
+            "1" : "Requirements & Design",
+            "2" : "Designing the database",
+            "3" : "Building the patient forms",
+            "4" : "Integrating Assessment Tool module",
+            "5" : "Building dashboard",
+            "6" : "Done"
+        }
+    },
+    {
+        "title" : "Inspicker",
+        "slug" : "project-5",
+        "url" : "https://inspicker.herokuapp.com/",
+        "image" : "coffee",
+        "description" : "A simple web to generate a random image, quote, and font to draw inspiration.",
+        "tech" : ["React"],
+        "tags" : ["random-generator", "picture-with-quote"],
+        "type" : "for fun",
+        "progress" : {
+            "1" : "Finding idea",
+            "2" : "Designing the layout",
+            "3" : "Integrating Unsplash, Wiki, and Google Font API",
+            "4" : "Done"
+        }
+    }
+]

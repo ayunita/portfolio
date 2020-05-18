@@ -1,0 +1,47 @@
+@import '../../config';
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 9999999;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+
+    ul {
+        text-decoration: none;
+        float: right;
+        margin-right: 32px;
+
+        @media (max-width: 768px) {
+            float: none;
+        }
+    
+        li {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 0 16px;
+            color: $flame;
+            border: 1px solid $flame;
+
+            @media (max-width: 768px) {
+                margin: 0 3px;      
+            }
+        }
+    }
+
+    a {
+        color: $flame;
+        text-decoration: none;
+    }
+}
+
+.CurrentNav {
+    background-color: $flame;
+    a {
+        color: white;
+    }
+}

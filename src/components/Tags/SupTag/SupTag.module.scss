@@ -1,0 +1,23 @@
+@import '../../../config';
+
+.SupTag {
+    position: relative;
+    color: $mikado;
+    font-size: .2rem;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	animation: text-moving 0.75s infinite;
+}
+
+@keyframes text-moving {
+	0% {
+		bottom: 0em;
+	}
+	
+	50% {
+		bottom: 0.5em;
+	}
+
+	100% {
+		bottom: 0em;
+	}
+}

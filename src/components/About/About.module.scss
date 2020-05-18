@@ -1,0 +1,68 @@
+@import '../../config';
+
+.About {
+    position: relative;
+    z-index: 99997;
+    display: flex;
+    flex-direction: column;
+
+    @media(min-width: 768px) {
+        flex-direction: row;
+    }
+
+    div {
+        margin: 0 32px;
+        flex: 0 1 100%;
+
+        @media(min-width: 768px) {
+            flex: 0 0 50%;
+            margin: 0;
+        }
+    }
+
+    p {
+        line-height: 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: $flame;
+        
+        &:hover, &:active, &:focus {
+            text-decoration-line: underline;
+        }
+    }
+
+    .Interest {
+        font-size: 48px;
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto;
+        
+        @media (max-width: 768px) {
+            font-size: 28px;
+            grid-template-columns: auto auto auto auto;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 48px;
+            margin: 16px;
+            
+            @media (max-width: 768px) {
+                width: 28px;
+                margin: auto;
+            }
+        }
+
+        a {
+            color: $tiffany !important;
+            margin: 16px;  
+
+            @media (max-width: 768px) {
+                margin: 0;
+            }
+
+        }
+    }
+}
