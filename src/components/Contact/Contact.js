@@ -67,7 +67,7 @@ const Contact = (props) => {
             },
         )
         .then(response => {
-            console.log('[Contact.js] sendEmail response', response);
+            //console.log('[Contact.js] sendEmail response', response);
             setEmail(prevState => ({
                 ...prevState,
                 sent: response.data.sent,
@@ -76,7 +76,7 @@ const Contact = (props) => {
             setLoading(false);
         })
         .catch(error => {
-            console.log('[Contact.js] sendEmail error', error);
+            //console.log('[Contact.js] sendEmail error', error);
             setEmail(prevState => ({
                 ...prevState,
                 sent: false,
