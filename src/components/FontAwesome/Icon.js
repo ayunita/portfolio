@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from "@fortawesome/free-brands-svg-icons"
-import { faDatabase, faFilePrescription, faWeight, faLaptopCode, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faFilePrescription, faWeight, faLaptopCode, faCoffee, faStickyNote, faPalette } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
     fab,
@@ -10,7 +10,9 @@ library.add(
     faFilePrescription,
     faWeight,
     faLaptopCode,   
-    faCoffee);
+    faCoffee,
+    faStickyNote,
+    faPalette);
 
 const Icon = (props) => (
     <div>

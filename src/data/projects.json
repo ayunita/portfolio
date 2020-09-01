@@ -81,5 +81,37 @@
             "3" : "Integrating Unsplash, Wiki, and Google Font API",
             "4" : "Done"
         }
+    },
+    {
+        "title" : "YNote",
+        "slug" : "project-6",
+        "url" : "https://ynote-potato.herokuapp.com/",
+        "image" : "sticky-note",
+        "description" : "A simple web to take notes when watching youtube video. No history will be stored.",
+        "tech" : ["React"],
+        "tags" : ["random-notes", "youtube-video"],
+        "type" : "for fun",
+        "progress" : {
+            "1" : "Finding idea",
+            "2" : "Designing the layout",
+            "3" : "Playing around with React Youtube",
+            "4" : "Done"
+        }
+    },
+    {
+        "title" : "Colordekk",
+        "slug" : "project-7",
+        "url" : "https://colordekk.herokuapp.com/",
+        "image" : "palette",
+        "description" : "A color matching game.",
+        "tech" : ["React"],
+        "tags" : ["random-game", "matching-game", "color-therapy", "brain-exercise"],
+        "type" : "for fun",
+        "progress" : {
+            "1" : "Finding idea",
+            "2" : "Designing the layout",
+            "3" : "Picking the colors",
+            "4" : "Done"
+        }
     }
 ]

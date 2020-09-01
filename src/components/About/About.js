@@ -5,11 +5,11 @@ import Icon from '../FontAwesome/Icon';
 const About = (props) => (
     <div className={styles.About}>
         <div>
-            <p>Hello! My name is Yunita. I am a Software Developer and a UI/UX Ethusiast from Edmonton, Canada.</p>
+            <p>Hello! My name is Yunita. I am a Software Developer and a UI/UX Enthusiast from Edmonton, Canada.</p>
             <p>I did my diploma in Computer Programming from Humber College in 2013 and my undergraduate degree in Computing Science from University of Alberta in 2018.</p>
             <p>I have 4 years experience in developing software for healthcare research, such as patient education tool, data collection tool, and clinician portal.</p>
             <p>I enjoy designing and building small to large scale web apps with C#, ASP.NET, JavaScript, and (recently) React.</p>
-            <p>Want to know how I may help your project? Check out out my <a href='#projects'>Projects</a>.</p>
+            <p>Want to know how I may help your project? Check out my <a href='#projects'>Projects</a>.</p>
         </div>
         
         <div style={{'textAlign': 'center'}}>
